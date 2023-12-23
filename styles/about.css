@@ -1,0 +1,44 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/frieren\ 7.jpeg') ;
+    width: 100%;
+    height: 100vh;
+    padding: 0 2rem;
+
+    gap: 2rem;
+}
+
+.two-items{
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+    justify-content: center;
+}
+
+.about-title{
+    color: #27374D;
+    font-size: 4rem;
+    font-family: "Satista";
+    display: flex;
+    text-align: center;
+}
+
+.about-text{
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+}
+
+.about-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+    text-align: justify;
+    max-width: 30%;
+}
